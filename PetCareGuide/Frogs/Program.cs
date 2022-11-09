@@ -1,45 +1,45 @@
-﻿internal class Program
+﻿internal class Program//Class, Access Modifier
 {
-    private static void Main(string[] args)
+    private static void Main(string[] args)//Access Modifier
     {
-        Frog f1 = new Frog("Tom");
-        JumpingFrog f2 = new JumpingFrog("Dick", 120);
-        DancingFrog f3 = new DancingFrog("Harry", "Lindy Hop");
+        Frog f1 = new Frog("Tom");//Constructor, Object
+        JumpingFrog f2 = new JumpingFrog("Dick", 120);//Constructor, Object
+        DancingFrog f3 = new DancingFrog("Harry", "Lindy Hop");//Constructor, Object
 
-        Console.WriteLine(f1.Speak());
-        Console.WriteLine(f1.Hop());
+        Console.WriteLine(f1.Speak());//Member Method
+        Console.WriteLine(f1.Hop());//Member Method
         Console.WriteLine();
-        Console.WriteLine(f2.Speak());
-        Console.WriteLine(f2.Hop());
-        Console.WriteLine(f2.Jump());
+        Console.WriteLine(f2.Speak());//Member Method
+        Console.WriteLine(f2.Hop());//Member Method
+        Console.WriteLine(f2.Jump());//Member Method
         Console.WriteLine();
-        Console.WriteLine(f3.Speak());
-        Console.WriteLine(f3.Hop());
-        Console.WriteLine(f3.Dance());
+        Console.WriteLine(f3.Speak());//Member Method
+        Console.WriteLine(f3.Hop());//Member Method
+        Console.WriteLine(f3.Dance());//Member Method
     }
 
-    public class Frog
+    public class Frog//Class
     {
-        private string _name;
-        public string Name { get => _name; set => _name = value; }
-        public Frog(string pName) { _name = pName; }
-        public virtual string Speak() => $"Hello my name is {_name}, and I'm a {this.GetType().Name}.";
-        public string Hop() => "I hopped but not very high...";
+        private string _name;//Member Variable, Encapsulation
+        public string Name { get => _name; set => _name = value; }//Member Variable, Abstraction
+        public Frog(string pName) { _name = pName; }//Constructor
+        public virtual string Speak() => $"Hello my name is {_name}, and I'm a {this.GetType().Name}.";//Member Variable, Polymorphism
+        public string Hop() => "I hopped but not very high...";//Member Variable
     }
-    public class JumpingFrog : Frog
+    public class JumpingFrog : Frog//Inheritance
     {
-        private int _jumpingHeight;
-        public int jumpingHeight { get => _jumpingHeight; set => _jumpingHeight = value; }
-        public JumpingFrog(string pName, int pJumpingHeight) : base(pName) { _jumpingHeight = pJumpingHeight; }
-        public string Jump() => $"I Jumped {_jumpingHeight}cm!";
-        public override string Speak() => base.Speak() + $"\nI can jump {_jumpingHeight}cm high!";
+        private int _jumpingHeight;//Member Variable, Encapsulation
+        public int jumpingHeight { get => _jumpingHeight; set => _jumpingHeight = value; }//Member Variable, Abstraction
+        public JumpingFrog(string pName, int pJumpingHeight) : base(pName) { _jumpingHeight = pJumpingHeight; }//Constructor, Inheritance
+        public string Jump() => $"I Jumped {_jumpingHeight}cm!";//Member Variable
+        public override string Speak() => base.Speak() + $"\nI can jump {_jumpingHeight}cm high!";//Member Variable, Polymorphism
     }
-    public class DancingFrog : Frog
+    public class DancingFrog : Frog//Inheritance
     {
-        private string _danceMove;
-        public string danceMove { get => _danceMove; set => _danceMove = value; }
-        public DancingFrog(string pName, string pDanceMove) : base(pName) { _danceMove = pDanceMove; }
-        public string Dance() => $"Check out my {_danceMove} dance!";
-        public override string Speak() => base.Speak() + $"\nI can show off my {_danceMove} dance";
+        private string _danceMove;//Member Variable, Encapsulation
+        public string danceMove { get => _danceMove; set => _danceMove = value; }//Member Variable, Abstraction
+        public DancingFrog(string pName, string pDanceMove) : base(pName) { _danceMove = pDanceMove; }//Constructor, Inheritance
+        public string Dance() => $"Check out my {_danceMove} dance!";//Member Variable
+        public override string Speak() => base.Speak() + $"\nI can show off my {_danceMove} dance";//Member Variable, Polymorphism
     }
 }

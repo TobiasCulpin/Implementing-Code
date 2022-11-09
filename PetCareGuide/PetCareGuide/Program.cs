@@ -1,21 +1,21 @@
 ﻿using System.Reflection;
-internal class Program
+internal class Program//Class, Access Modifier
 {
-    internal enum STATUS { Happy, Sad, Bored, Excited, Sleeping }
+    internal enum STATUS { Happy, Sad, Bored, Excited, Sleeping }//Access Modifier
     private static void Main(string[] args)
     {
-        Fish fish = new Fish("Nemo", true, STATUS.Bored, 2);
-        Dog dog1 = new Dog("Fido", true, STATUS.Happy, true, 8, "Husky");
-        Dog dog2 = new Dog("Beethoven", true, STATUS.Happy, true, 4, "St. Bernard");
-        Lizard lizard = new Lizard("Lizzie", false, STATUS.Bored, 22.0f, 5);
-        Cat cat = new Cat("Tibbles", true, STATUS.Sleeping, 6, "Tabby");
-        Bird bird = new Bird("Kevin", false, STATUS.Excited, 40, "Green");
-        
-        Pet.showAll();
+        Fish fish = new Fish("Nemo", true, STATUS.Bored, 2);//Constructor, Object
+        Dog dog1 = new Dog("Fido", true, STATUS.Happy, true, 8, "Husky");//Constructor, Object
+        Dog dog2 = new Dog("Beethoven", true, STATUS.Happy, true, 4, "St. Bernard");//Constructor, Object
+        Lizard lizard = new Lizard("Lizzie", false, STATUS.Bored, 22.0f, 5);//Constructor, Object
+        Cat cat = new Cat("Tibbles", true, STATUS.Sleeping, 6, "Tabby");//Constructor, Object
+        Bird bird = new Bird("Kevin", false, STATUS.Excited, 40, "Green");//Constructor, Object
+
+        Pet.showAll();//Member Method
     }
-    public abstract class Pet
+    public abstract class Pet//Class, Polymorphism
     {
-        //Private Variables
+        //Private Variables, Access Modifier
         protected string _name;
         private string _favouriteFood;
         private string _noise;
@@ -23,7 +23,7 @@ internal class Program
         protected STATUS _status;
         protected uint _age;
         private static List<Pet> _pets = new List<Pet>();
-        //Get Set
+        //Get Set, Access Modifier
         public string name { get => _name; set => _name = value; }
         public string favouriteFood { get => _favouriteFood; set => _favouriteFood = value; }
         public string noise { get => _noise; set => _noise = value; }
@@ -76,7 +76,7 @@ internal class Program
         }
     }
 
-    public abstract class Mammal : Pet
+    public abstract class Mammal : Pet//Class, Inheritance
     {
         //Private Variables
         private string _breed;
@@ -97,7 +97,7 @@ internal class Program
         }
     }
 
-    public class Fish : Pet
+    public class Fish : Pet//Class, Inheritance
     {
         //Constructors
         public Fish(string pName, bool pHungry, STATUS pStatus, uint pAge)
@@ -113,7 +113,7 @@ internal class Program
         }
     }
 
-    public class Dog : Mammal
+    public class Dog : Mammal//Class, Inheritance
     {
         //Private Variables
         private bool _needsWalk;
@@ -134,7 +134,7 @@ internal class Program
         }
     }
 
-    public class Lizard : Pet
+    public class Lizard : Pet//Class, Inheritance
     {
         //Private Variables
         private float _temperature;
@@ -149,7 +149,7 @@ internal class Program
         }
     }
 
-    public class Cat : Mammal
+    public class Cat : Mammal//Class, Inheritance
     {
         //Private Variables
         private double _jumpingHeight;
@@ -164,7 +164,7 @@ internal class Program
         }
     }
 
-    public class Bird : Pet
+    public class Bird : Pet//Class, Inheritance
     {
         //Private Variables
         private string _featherColour;
