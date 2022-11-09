@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetCareGuide", "PetCareGuide\PetCareGuide.csproj", "{08A95F09-7576-47EE-A61C-6A1BCC3A35FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frogs", "Frogs\Frogs.csproj", "{55D77C48-491F-45C3-B5E1-51CA3BA9BED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A95F09-7576-47EE-A61C-6A1BCC3A35FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A95F09-7576-47EE-A61C-6A1BCC3A35FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A95F09-7576-47EE-A61C-6A1BCC3A35FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A95F09-7576-47EE-A61C-6A1BCC3A35FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D77C48-491F-45C3-B5E1-51CA3BA9BED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D77C48-491F-45C3-B5E1-51CA3BA9BED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D77C48-491F-45C3-B5E1-51CA3BA9BED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D77C48-491F-45C3-B5E1-51CA3BA9BED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {332B7A79-BD6B-4FCF-98A9-DD004B127EB4}
+	EndGlobalSection
+EndGlobal

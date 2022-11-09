@@ -1,0 +1,15 @@
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\bin\Debug\net6.0\Frogs.exe
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\bin\Debug\net6.0\Frogs.deps.json
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\bin\Debug\net6.0\Frogs.runtimeconfig.json
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\bin\Debug\net6.0\Frogs.dll
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\bin\Debug\net6.0\Frogs.pdb
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.csproj.AssemblyReference.cache
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.AssemblyInfoInputs.cache
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.AssemblyInfo.cs
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.csproj.CoreCompileInputs.cache
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.dll
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\refint\Frogs.dll
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.pdb
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\Frogs.genruntimeconfig.cache
+C:\Users\tculpin\source\repos\PetCareGuide\Frogs\obj\Debug\net6.0\ref\Frogs.dll

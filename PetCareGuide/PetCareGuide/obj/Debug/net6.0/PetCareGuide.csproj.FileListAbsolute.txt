@@ -1,0 +1,15 @@
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.csproj.AssemblyReference.cache
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.AssemblyInfoInputs.cache
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.AssemblyInfo.cs
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.csproj.CoreCompileInputs.cache
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\bin\Debug\net6.0\PetCareGuide.exe
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\bin\Debug\net6.0\PetCareGuide.deps.json
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\bin\Debug\net6.0\PetCareGuide.runtimeconfig.json
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\bin\Debug\net6.0\PetCareGuide.dll
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\bin\Debug\net6.0\PetCareGuide.pdb
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.dll
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\refint\PetCareGuide.dll
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.pdb
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\PetCareGuide.genruntimeconfig.cache
+C:\Users\tculpin\source\repos\PetCareGuide\PetCareGuide\obj\Debug\net6.0\ref\PetCareGuide.dll
